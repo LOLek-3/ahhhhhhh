@@ -7,7 +7,12 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <embed src="noice.mp3" loop="true" autostart="true" width="2" height="0">
+        <audio id="my_audio" src="noice.mp3" loop="loop"></audio>
     </body>
+    <script>
+        window.onload = function() {
+    document.getElementById("my_audio").play();
+}
+    </script>
 </html>
 
